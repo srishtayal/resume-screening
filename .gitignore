@@ -1,0 +1,5 @@
+# Ignore .pkl files
+*.pkl
+
+# Ignore .env files (to keep sensitive info safe)
+.env
