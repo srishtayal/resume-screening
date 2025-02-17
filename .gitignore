@@ -3,3 +3,5 @@
 
 # Ignore .env files (to keep sensitive info safe)
 .env
+
+venv/
