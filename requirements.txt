@@ -1,8 +1,8 @@
-numpy>=1.24.0
-pandas==1.5.0
-matplotlib==3.7.1
-seaborn==0.11.2
-scikit-learn>=1.2.0
-streamlit==1.12.2
-python-docx==0.8.11
-PyPDF2==2.11.2
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+streamlit
+python-docx
+PyPDF2
