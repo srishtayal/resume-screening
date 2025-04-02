@@ -1,67 +1,49 @@
-# Resume Screening App
+# **Resume Screening App**  
 
-This web application is designed for automated resume screening using machine learning models to help employers quickly filter and shortlist candidates based on their resumes. The app analyzes resumes, extracts relevant information, and presents a summary or categorization to assist recruiters in making decisions.
+A machine learning-powered web application that automates resume screening, helping employers efficiently filter and shortlist candidates. The app analyzes resumes, extracts key details, and categorizes candidates based on job relevance.  
 
-## Features
+## **Features**  
 
-- **Upload Resume**: Users can upload resumes in various formats such as PDF, DOCX, etc.
-- **Resume Analysis**: The app uses NLP models to extract key information from resumes like skills, experience, education, and more.
-- **User Interface**: Simple, clean, and intuitive interface using Streamlit.
+- **Resume Upload** – Supports multiple formats (PDF, DOCX, etc.).  
+- **Automated Analysis** – Extracts skills, experience, education, and other key details using NLP.  
+- **Job Matching** – Suggests relevant professions based on resume content.  
+- **User-Friendly UI** – Built with Streamlit for an intuitive and interactive experience.  
 
-## Installation
+##  **Installation & Setup**  
 
-### Prerequisites
+### **Prerequisites**  
+Ensure you have the following installed:  
+- Python **3.7+**  
+- **pip** package manager  
+- Required dependencies (listed in `requirements.txt`)  
 
-Ensure you have the following installed on your system:
-
-- Python 3.7+
-- Streamlit
-- Pandas
-- Numpy
-- Scikit-learn
-- Spacy
-- PyPDF2
-- Other dependencies as specified in the `requirements.txt` file
-
-### Steps to Set Up Locally
-
-1. Clone this repository:
+### **Setup Instructions**  
+1. **Clone the repository**  
    ```bash
    git clone https://github.com/srishtayal/resume-screening.git
-   ```
-
-2. Navigate to the project folder:
-   ```bash
    cd resume-screening
-   ```
-
-3. Install the required dependencies:
+   ```  
+2. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
-   ```
-
-4. Run the Streamlit app:
+   ```  
+3. **Run the application**  
    ```bash
    streamlit run app.py
-   ```
+   ```  
+4. **Access the app**  
+   Open your browser and go to: [http://localhost:8501](http://localhost:8501)  
 
-5. Open the app in your browser at:
-   ```
-   http://localhost:8501
-   ```
+##  **Technology Stack**  
 
-## Usage
+**Frontend:** Streamlit  
+**Backend:** Python (Pandas, NumPy, SpaCy)  
+**Machine Learning:** NLP-based models for resume parsing and job matching  
+**Data Visualization:** Matplotlib, Seaborn for insights  
 
-- Upload a resume by clicking the "Upload Resume" button.
-- Once uploaded, the app will process the resume and display suggested profession.
+##  **Usage**  
 
-## Technology Stack
+1️⃣ **Upload** a resume using the "Upload Resume" button.  
+2️⃣ The app **processes the resume** and extracts key information.  
+3️⃣ Get an **instant recommendation** on job suitability based on extracted data.  
 
-- **Frontend**: Streamlit
-- **Backend**: Python, with libraries such as Pandas, NumPy, and SpaCy for text processing and analysis.
-- **Machine Learning**: Custom models for NLP-based resume analysis and scoring.
-- **Data Visualization**: Matplotlib, Seaborn, and other plotting libraries to visualize extracted resume data.
-
-  ---
-
-❤️ Srishti Tayal
